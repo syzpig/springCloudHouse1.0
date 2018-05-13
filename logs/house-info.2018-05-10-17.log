@@ -1,0 +1,500 @@
+2018-05-10 17:23:39.708 [main] INFO  [com.mooc.house.HouseApplication:48] maincid - Starting HouseApplication on C64-20180322MQM with PID 1260 (started by Administrator in D:\BaiduNetdiskDownload\Java深入微服务原理改造房产销售平台\[www.zxit8.com 自学IT吧论坛]  project\p2ipxd\housev1.0)
+2018-05-10 17:23:39.711 [main] INFO  [com.mooc.house.HouseApplication:662] maincid - No active profile set, falling back to default profiles: default
+2018-05-10 17:23:39.818 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] maincid - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651: startup date [Thu May 10 17:23:39 CST 2018]; root of context hierarchy
+2018-05-10 17:23:39.822 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] background-preinitcid - HV000001: Hibernate Validator 5.2.5.Final
+2018-05-10 17:23:41.937 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] maincid - Tomcat initialized with port(s): 8091 (http)
+2018-05-10 17:23:41.947 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Starting service [Tomcat]
+2018-05-10 17:23:41.948 [main] INFO  [org.apache.catalina.core.StandardEngine:179] maincid - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-05-10 17:23:42.051 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] localhost-startStop-1cid - Initializing Spring embedded WebApplicationContext
+2018-05-10 17:23:42.051 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] localhost-startStop-1cid - Root WebApplicationContext: initialization completed in 2235 ms
+2018-05-10 17:23:42.349 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'metricsFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:271] localhost-startStop-1cid - Mapping filter: 'logFilter' to urls: [*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-05-10 17:23:42.350 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-05-10 17:23:42.351 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-10 17:23:42.880 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:106] maincid - {dataSource-1} inited
+2018-05-10 17:23:45.096 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] maincid - jolokia: No access restrictor found, access to any MBean is allowed
+2018-05-10 17:23:45.297 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] maincid - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651: startup date [Thu May 10 17:23:39 CST 2018]; root of context hierarchy
+2018-05-10 17:23:45.377 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/create]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencyCreate()
+2018-05-10 17:23:45.379 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agentMsg]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agentMsg(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.379 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agentDetail]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agentDetail(java.lang.Long,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.379 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agentList]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agentList(java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.380 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agencyDetail]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencyDetail(java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.380 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/list]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencyList(org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.380 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/submit]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencySubmit(com.mooc.house.common.model.Agency)
+2018-05-10 17:23:45.380 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/blog/list],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.BlogController.list(java.lang.Integer,java.lang.Integer,com.mooc.house.common.model.Blog,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.381 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/blog/detail],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.BlogController.blogDetail(int,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.381 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/comment/leaveComment],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.CommentController.leaveComment(java.lang.String,java.lang.Long,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.381 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/comment/leaveBlogComment],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.CommentController.leaveBlogComment(java.lang.String,java.lang.Integer,org.springframework.ui.ModelMap,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-05-10 17:23:45.381 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[]}" onto public java.lang.String com.mooc.house.web.controller.HomepageController.index(org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.382 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HomepageController.accountsRegister(org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.384 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/toAdd]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.toAdd(org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.384 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/list]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.houseList(java.lang.Integer,java.lang.Integer,com.mooc.house.common.model.House,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.384 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/add]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.doAdd(com.mooc.house.common.model.House)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/ownlist]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.ownlist(com.mooc.house.common.model.House,java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/detail]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.houseDetail(java.lang.Long,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/leaveMsg]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.houseMsg(com.mooc.house.common.model.UserMsg)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/rating]}" onto public com.mooc.house.common.result.ResultMsg com.mooc.house.web.controller.HouseController.houseRate(java.lang.Double,java.lang.Long)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/bookmark]}" onto public com.mooc.house.common.result.ResultMsg com.mooc.house.web.controller.HouseController.bookmark(java.lang.Long)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/unbookmark]}" onto public com.mooc.house.common.result.ResultMsg com.mooc.house.web.controller.HouseController.unbookmark(java.lang.Long)
+2018-05-10 17:23:45.385 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/del]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.delsale(java.lang.Long,java.lang.String)
+2018-05-10 17:23:45.386 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/bookmarked]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.bookmarked(com.mooc.house.common.model.House,java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.386 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/profile]}" onto public java.lang.String com.mooc.house.web.controller.UserController.profile(javax.servlet.http.HttpServletRequest,com.mooc.house.common.model.User,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.386 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/reset]}" onto public java.lang.String com.mooc.house.web.controller.UserController.reset(java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/verify]}" onto public java.lang.String com.mooc.house.web.controller.UserController.verify(java.lang.String)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/register]}" onto public java.lang.String com.mooc.house.web.controller.UserController.accountsRegister(com.mooc.house.common.model.User,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/signin]}" onto public java.lang.String com.mooc.house.web.controller.UserController.signin(javax.servlet.http.HttpServletRequest)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/logout]}" onto public java.lang.String com.mooc.house.web.controller.UserController.logout(javax.servlet.http.HttpServletRequest)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/changePassword]}" onto public java.lang.String com.mooc.house.web.controller.UserController.changePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/remember]}" onto public java.lang.String com.mooc.house.web.controller.UserController.remember(java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:23:45.387 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/resetSubmit]}" onto public java.lang.String com.mooc.house.web.controller.UserController.resetSubmit(javax.servlet.http.HttpServletRequest,com.mooc.house.common.model.User)
+2018-05-10 17:23:45.389 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-10 17:23:45.389 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-10 17:23:45.433 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:23:45.433 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:23:45.454 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] maincid - Detected @ExceptionHandler methods in errorhandler
+2018-05-10 17:23:45.481 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:23:45.717 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:165] maincid - Initializing ExecutorService  'registrationTaskScheduler'
+2018-05-10 17:23:46.221 [main] INFO  [org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer:127] maincid - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-10 17:23:46.533 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] maincid - Registering beans for JMX exposure on startup
+2018-05-10 17:23:46.534 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] maincid - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-10 17:23:46.534 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] maincid - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-05-10 17:23:46.541 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] maincid - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-05-10 17:23:46.542 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] maincid - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-05-10 17:23:46.543 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:431] maincid - Registering beans for JMX exposure on startup
+2018-05-10 17:23:46.546 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] maincid - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6be8ce1b: startup date [Thu May 10 17:23:46 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651
+2018-05-10 17:23:46.595 [main] INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] maincid - Overriding bean definition for bean 'handlerExceptionResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=handlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=endpointWebMvcChildContextConfiguration; factoryMethodName=compositeHandlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcChildContextConfiguration]
+2018-05-10 17:23:46.657 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] maincid - Tomcat initialized with port(s): 8092 (http)
+2018-05-10 17:23:46.657 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Starting service [Tomcat]
+2018-05-10 17:23:46.657 [main] INFO  [org.apache.catalina.core.StandardEngine:179] maincid - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-05-10 17:23:46.689 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:179] localhost-startStop-1cid - Initializing Spring embedded WebApplicationContext
+2018-05-10 17:23:46.689 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] localhost-startStop-1cid - Root WebApplicationContext: initialization completed in 143 ms
+2018-05-10 17:23:46.694 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-10 17:23:46.806 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.806 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.808 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-05-10 17:23:46.809 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-05-10 17:23:46.809 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.809 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.810 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-05-10 17:23:46.811 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.813 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.816 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.817 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-05-10 17:23:46.818 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-05-10 17:23:46.819 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.820 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:23:46.871 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/error]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.boot.actuate.endpoint.mvc.ManagementErrorEndpoint.invoke()
+2018-05-10 17:23:46.877 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:23:46.877 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:23:46.888 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] maincid - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6be8ce1b: startup date [Thu May 10 17:23:46 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651
+2018-05-10 17:23:46.962 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Initializing ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:23:46.973 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Starting ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:23:46.985 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] maincid - Using a shared selector for servlet write/read
+2018-05-10 17:24:08.011 [main] ERROR [org.apache.coyote.http11.Http11NioProtocol:181] maincid - Failed to start end point associated with ProtocolHandler ["http-nio-8092"]
+java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:94) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:61) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl.<init>(PipeImpl.java:171) ~[?:1.8.0_162]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(SelectorProviderImpl.java:50) ~[?:1.8.0_162]
+	at java.nio.channels.Pipe.open(Pipe.java:155) ~[?:1.8.0_162]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(WindowsSelectorImpl.java:127) ~[?:1.8.0_162]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(WindowsSelectorProvider.java:44) ~[?:1.8.0_162]
+	at java.nio.channels.Selector.open(Selector.java:227) ~[?:1.8.0_162]
+	at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:623) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:257) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:981) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.createChildManagementContext(EndpointWebMvcAutoConfiguration.java:193) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.afterSingletonsInstantiated(EndpointWebMvcAutoConfiguration.java:156) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:781) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:1.8.0_162]
+	at sun.nio.ch.Net.connect(Net.java:454) ~[?:1.8.0_162]
+	at sun.nio.ch.Net.connect(Net.java:446) ~[?:1.8.0_162]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648) ~[?:1.8.0_162]
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:76) ~[?:1.8.0_162]
+	... 33 more
+2018-05-10 17:24:08.011 [main] ERROR [org.apache.catalina.core.StandardService:181] maincid - Failed to start connector [Connector[HTTP/1.1-8092]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8092]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.createChildManagementContext(EndpointWebMvcAutoConfiguration.java:193) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.afterSingletonsInstantiated(EndpointWebMvcAutoConfiguration.java:156) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:781) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 19 more
+Caused by: java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:94) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:61) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl.<init>(PipeImpl.java:171) ~[?:1.8.0_162]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(SelectorProviderImpl.java:50) ~[?:1.8.0_162]
+	at java.nio.channels.Pipe.open(Pipe.java:155) ~[?:1.8.0_162]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(WindowsSelectorImpl.java:127) ~[?:1.8.0_162]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(WindowsSelectorProvider.java:44) ~[?:1.8.0_162]
+	at java.nio.channels.Selector.open(Selector.java:227) ~[?:1.8.0_162]
+	at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:623) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:257) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:981) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 19 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:1.8.0_162]
+	at sun.nio.ch.Net.connect(Net.java:454) ~[?:1.8.0_162]
+	at sun.nio.ch.Net.connect(Net.java:446) ~[?:1.8.0_162]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648) ~[?:1.8.0_162]
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:76) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:61) ~[?:1.8.0_162]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_162]
+	at sun.nio.ch.PipeImpl.<init>(PipeImpl.java:171) ~[?:1.8.0_162]
+	at sun.nio.ch.SelectorProviderImpl.openPipe(SelectorProviderImpl.java:50) ~[?:1.8.0_162]
+	at java.nio.channels.Pipe.open(Pipe.java:155) ~[?:1.8.0_162]
+	at sun.nio.ch.WindowsSelectorImpl.<init>(WindowsSelectorImpl.java:127) ~[?:1.8.0_162]
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(WindowsSelectorProvider.java:44) ~[?:1.8.0_162]
+	at java.nio.channels.Selector.open(Selector.java:227) ~[?:1.8.0_162]
+	at org.apache.tomcat.util.net.NioEndpoint$Poller.<init>(NioEndpoint.java:623) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.NioEndpoint.startInternal(NioEndpoint.java:257) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:981) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 19 more
+2018-05-10 17:24:08.035 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Pausing ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:24:08.035 [main] ERROR [org.apache.coyote.http11.Http11NioProtocol:181] maincid - Failed to pause end point associated with ProtocolHandler ["http-nio-8092"]
+java.lang.NullPointerException
+	at org.apache.tomcat.util.net.AbstractEndpoint.unlockAccept(AbstractEndpoint.java:784) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.pause(AbstractEndpoint.java:1013) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.pause(AbstractProtocol.java:654) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.pause(Connector.java:944) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:467) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:814) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:354) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stopTomcat(TomcatEmbeddedServletContainer.java:238) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stopSilently(TomcatEmbeddedServletContainer.java:226) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.createChildManagementContext(EndpointWebMvcAutoConfiguration.java:193) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.afterSingletonsInstantiated(EndpointWebMvcAutoConfiguration.java:156) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:781) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+2018-05-10 17:24:08.037 [main] ERROR [org.apache.catalina.connector.Connector:181] maincid - Protocol handler pause failed
+java.lang.NullPointerException
+	at org.apache.tomcat.util.net.AbstractEndpoint.unlockAccept(AbstractEndpoint.java:784) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.pause(AbstractEndpoint.java:1013) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.pause(AbstractProtocol.java:654) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.pause(Connector.java:944) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:467) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:814) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.startup.Tomcat.stop(Tomcat.java:354) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stopTomcat(TomcatEmbeddedServletContainer.java:238) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stopSilently(TomcatEmbeddedServletContainer.java:226) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.createChildManagementContext(EndpointWebMvcAutoConfiguration.java:193) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.afterSingletonsInstantiated(EndpointWebMvcAutoConfiguration.java:156) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:781) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+2018-05-10 17:24:08.037 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Stopping service [Tomcat]
+2018-05-10 17:24:08.070 [main] INFO  [org.apache.catalina.util.LifecycleBase:179] maincid - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2018-05-10 17:24:08.071 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Stopping ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:24:08.071 [main] ERROR [org.apache.coyote.http11.Http11NioProtocol:181] maincid - Failed to stop end point associated with ProtocolHandler ["http-nio-8092"]
+java.lang.NullPointerException
+	at org.apache.tomcat.util.net.AbstractEndpoint.unlockAccept(AbstractEndpoint.java:784) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:280) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1029) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:688) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1047) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:264) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:571) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:883) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.startup.Tomcat.destroy(Tomcat.java:366) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stop(TomcatEmbeddedServletContainer.java:293) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.stopAndReleaseEmbeddedServletContainer(EmbeddedWebApplicationContext.java:306) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:125) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.createChildManagementContext(EndpointWebMvcAutoConfiguration.java:193) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.afterSingletonsInstantiated(EndpointWebMvcAutoConfiguration.java:156) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:781) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+2018-05-10 17:24:08.072 [main] WARN  [org.apache.catalina.util.LifecycleBase:181] maincid - Calling stop() on failed component [Connector[HTTP/1.1-8092]] to trigger clean-up did not complete.
+org.apache.catalina.LifecycleException: Failed to stop component [Connector[HTTP/1.1-8092]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:238) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:264) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:571) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:883) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.startup.Tomcat.destroy(Tomcat.java:366) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stop(TomcatEmbeddedServletContainer.java:293) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.stopAndReleaseEmbeddedServletContainer(EmbeddedWebApplicationContext.java:306) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:125) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.createChildManagementContext(EndpointWebMvcAutoConfiguration.java:193) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration.afterSingletonsInstantiated(EndpointWebMvcAutoConfiguration.java:156) ~[spring-boot-actuator-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:781) ~[spring-beans-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:372) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+Caused by: org.apache.catalina.LifecycleException: Protocol handler stop failed
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1049) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 21 more
+Caused by: java.lang.NullPointerException
+	at org.apache.tomcat.util.net.AbstractEndpoint.unlockAccept(AbstractEndpoint.java:784) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:280) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1029) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:688) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1047) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 21 more
+2018-05-10 17:24:08.072 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Destroying ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:24:08.074 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Stopping service [Tomcat]
+2018-05-10 17:24:08.090 [main] INFO  [org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer:101] maincid - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-10 17:24:08.091 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] maincid - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6be8ce1b: startup date [Thu May 10 17:23:46 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651
+2018-05-10 17:24:08.097 [main] ERROR [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:42] maincid - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8092 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8092, or configure this application to listen on another port.
+
+2018-05-10 17:24:08.099 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:984] maincid - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651: startup date [Thu May 10 17:23:39 CST 2018]; root of context hierarchy
+2018-05-10 17:24:08.099 [main] WARN  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:1002] maincid - Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e8e8651: startup date [Thu May 10 17:23:39 CST 2018]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:427) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:999) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:819) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1187) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1176) ~[spring-boot-1.4.7.RELEASE.jar:1.4.7.RELEASE]
+	at com.mooc.house.HouseApplication.main(HouseApplication.java:15) ~[classes/:?]
+2018-05-10 17:24:08.100 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:449] maincid - Unregistering JMX-exposed beans on shutdown
+2018-05-10 17:24:08.100 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:449] maincid - Unregistering JMX-exposed beans on shutdown
+2018-05-10 17:24:08.100 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:241] maincid - Unregistering JMX-exposed beans
+2018-05-10 17:24:08.101 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:203] maincid - Shutting down ExecutorService 'registrationTaskScheduler'
+2018-05-10 17:24:08.103 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:106] maincid - {dataSource-1} closed
+2018-05-10 17:44:04.295 [main] INFO  [com.mooc.house.HouseApplication:48] maincid - Starting HouseApplication on C64-20180322MQM with PID 7284 (started by Administrator in D:\BaiduNetdiskDownload\Java深入微服务原理改造房产销售平台\[www.zxit8.com 自学IT吧论坛]  project\p2ipxd\housev1.0)
+2018-05-10 17:44:04.297 [main] INFO  [com.mooc.house.HouseApplication:662] maincid - No active profile set, falling back to default profiles: default
+2018-05-10 17:44:04.369 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] maincid - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1fca1e: startup date [Thu May 10 17:44:04 CST 2018]; root of context hierarchy
+2018-05-10 17:44:04.378 [background-preinit] INFO  [org.hibernate.validator.internal.util.Version:30] background-preinitcid - HV000001: Hibernate Validator 5.2.5.Final
+2018-05-10 17:44:06.475 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] maincid - Tomcat initialized with port(s): 8091 (http)
+2018-05-10 17:44:06.485 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Starting service [Tomcat]
+2018-05-10 17:44:06.486 [main] INFO  [org.apache.catalina.core.StandardEngine:179] maincid - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-05-10 17:44:06.606 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] localhost-startStop-1cid - Initializing Spring embedded WebApplicationContext
+2018-05-10 17:44:06.606 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] localhost-startStop-1cid - Root WebApplicationContext: initialization completed in 2241 ms
+2018-05-10 17:44:06.912 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'metricsFilter' to: [/*]
+2018-05-10 17:44:06.912 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-10 17:44:06.912 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-10 17:44:06.912 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-10 17:44:06.913 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-10 17:44:06.913 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2018-05-10 17:44:06.913 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:271] localhost-startStop-1cid - Mapping filter: 'logFilter' to urls: [*]
+2018-05-10 17:44:06.913 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.FilterRegistrationBean:258] localhost-startStop-1cid - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2018-05-10 17:44:06.913 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-05-10 17:44:06.914 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-10 17:44:07.431 [main] INFO  [com.alibaba.druid.pool.DruidDataSource:106] maincid - {dataSource-1} inited
+2018-05-10 17:44:08.803 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:179] maincid - jolokia: No access restrictor found, access to any MBean is allowed
+2018-05-10 17:44:08.935 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] maincid - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1fca1e: startup date [Thu May 10 17:44:04 CST 2018]; root of context hierarchy
+2018-05-10 17:44:09.017 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/create]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencyCreate()
+2018-05-10 17:44:09.019 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agentMsg]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agentMsg(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.020 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agentDetail]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agentDetail(java.lang.Long,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.020 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agentList]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agentList(java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.020 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/agencyDetail]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencyDetail(java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.020 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/list]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencyList(org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.020 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/agency/submit]}" onto public java.lang.String com.mooc.house.web.controller.AgencyController.agencySubmit(com.mooc.house.common.model.Agency)
+2018-05-10 17:44:09.020 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/blog/list],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.BlogController.list(java.lang.Integer,java.lang.Integer,com.mooc.house.common.model.Blog,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.021 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/blog/detail],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.BlogController.blogDetail(int,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.021 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/comment/leaveComment],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.CommentController.leaveComment(java.lang.String,java.lang.Long,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.021 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/comment/leaveBlogComment],methods=[POST || GET]}" onto public java.lang.String com.mooc.house.web.controller.CommentController.leaveBlogComment(java.lang.String,java.lang.Integer,org.springframework.ui.ModelMap,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2018-05-10 17:44:09.022 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[]}" onto public java.lang.String com.mooc.house.web.controller.HomepageController.index(org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.022 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/index]}" onto public java.lang.String com.mooc.house.web.controller.HomepageController.accountsRegister(org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/toAdd]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.toAdd(org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/list]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.houseList(java.lang.Integer,java.lang.Integer,com.mooc.house.common.model.House,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/add]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.doAdd(com.mooc.house.common.model.House)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/ownlist]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.ownlist(com.mooc.house.common.model.House,java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/detail]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.houseDetail(java.lang.Long,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/leaveMsg]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.houseMsg(com.mooc.house.common.model.UserMsg)
+2018-05-10 17:44:09.025 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/rating]}" onto public com.mooc.house.common.result.ResultMsg com.mooc.house.web.controller.HouseController.houseRate(java.lang.Double,java.lang.Long)
+2018-05-10 17:44:09.026 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/bookmark]}" onto public com.mooc.house.common.result.ResultMsg com.mooc.house.web.controller.HouseController.bookmark(java.lang.Long)
+2018-05-10 17:44:09.026 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/unbookmark]}" onto public com.mooc.house.common.result.ResultMsg com.mooc.house.web.controller.HouseController.unbookmark(java.lang.Long)
+2018-05-10 17:44:09.026 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/del]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.delsale(java.lang.Long,java.lang.String)
+2018-05-10 17:44:09.026 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/house/bookmarked]}" onto public java.lang.String com.mooc.house.web.controller.HouseController.bookmarked(com.mooc.house.common.model.House,java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.027 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/profile]}" onto public java.lang.String com.mooc.house.web.controller.UserController.profile(javax.servlet.http.HttpServletRequest,com.mooc.house.common.model.User,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.027 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/reset]}" onto public java.lang.String com.mooc.house.web.controller.UserController.reset(java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.027 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/verify]}" onto public java.lang.String com.mooc.house.web.controller.UserController.verify(java.lang.String)
+2018-05-10 17:44:09.027 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/register]}" onto public java.lang.String com.mooc.house.web.controller.UserController.accountsRegister(com.mooc.house.common.model.User,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.027 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/signin]}" onto public java.lang.String com.mooc.house.web.controller.UserController.signin(javax.servlet.http.HttpServletRequest)
+2018-05-10 17:44:09.027 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/logout]}" onto public java.lang.String com.mooc.house.web.controller.UserController.logout(javax.servlet.http.HttpServletRequest)
+2018-05-10 17:44:09.028 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/changePassword]}" onto public java.lang.String com.mooc.house.web.controller.UserController.changePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.028 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/remember]}" onto public java.lang.String com.mooc.house.web.controller.UserController.remember(java.lang.String,org.springframework.ui.ModelMap)
+2018-05-10 17:44:09.028 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/accounts/resetSubmit]}" onto public java.lang.String com.mooc.house.web.controller.UserController.resetSubmit(javax.servlet.http.HttpServletRequest,com.mooc.house.common.model.User)
+2018-05-10 17:44:09.030 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-10 17:44:09.031 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-10 17:44:09.078 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:44:09.078 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:44:09.099 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver:273] maincid - Detected @ExceptionHandler methods in errorhandler
+2018-05-10 17:44:09.128 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:44:09.328 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:165] maincid - Initializing ExecutorService  'registrationTaskScheduler'
+2018-05-10 17:44:09.801 [main] INFO  [org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer:127] maincid - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-05-10 17:44:10.081 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:431] maincid - Registering beans for JMX exposure on startup
+2018-05-10 17:44:10.082 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] maincid - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-10 17:44:10.082 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:916] maincid - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-05-10 17:44:10.089 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] maincid - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-05-10 17:44:10.090 [main] INFO  [org.springframework.jmx.export.annotation.AnnotationMBeanExporter:671] maincid - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-05-10 17:44:10.090 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:431] maincid - Registering beans for JMX exposure on startup
+2018-05-10 17:44:10.093 [main] INFO  [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext:583] maincid - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32a4ea4e: startup date [Thu May 10 17:44:10 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1fca1e
+2018-05-10 17:44:10.130 [main] INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory:828] maincid - Overriding bean definition for bean 'handlerExceptionResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=handlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=endpointWebMvcChildContextConfiguration; factoryMethodName=compositeHandlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcChildContextConfiguration]
+2018-05-10 17:44:10.186 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:89] maincid - Tomcat initialized with port(s): 8092 (http)
+2018-05-10 17:44:10.186 [main] INFO  [org.apache.catalina.core.StandardService:179] maincid - Starting service [Tomcat]
+2018-05-10 17:44:10.186 [main] INFO  [org.apache.catalina.core.StandardEngine:179] maincid - Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-05-10 17:44:10.215 [localhost-startStop-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:179] localhost-startStop-1cid - Initializing Spring embedded WebApplicationContext
+2018-05-10 17:44:10.215 [localhost-startStop-1] INFO  [org.springframework.web.context.ContextLoader:276] localhost-startStop-1cid - Root WebApplicationContext: initialization completed in 122 ms
+2018-05-10 17:44:10.220 [localhost-startStop-1] INFO  [org.springframework.boot.web.servlet.ServletRegistrationBean:190] localhost-startStop-1cid - Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-10 17:44:10.324 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.324 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.325 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.326 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.327 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2018-05-10 17:44:10.329 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2018-05-10 17:44:10.329 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.331 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-05-10 17:44:10.332 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2018-05-10 17:44:10.333 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.335 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.338 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2018-05-10 17:44:10.339 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.339 [main] INFO  [org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping:543] maincid - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2018-05-10 17:44:10.359 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping:543] maincid - Mapped "{[/error]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.boot.actuate.endpoint.mvc.ManagementErrorEndpoint.invoke()
+2018-05-10 17:44:10.367 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:44:10.367 [main] INFO  [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping:362] maincid - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-10 17:44:10.383 [main] INFO  [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] maincid - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32a4ea4e: startup date [Thu May 10 17:44:10 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c1fca1e
+2018-05-10 17:44:10.494 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Initializing ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:44:10.513 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Starting ProtocolHandler ["http-nio-8092"]
+2018-05-10 17:44:10.531 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] maincid - Using a shared selector for servlet write/read
+2018-05-10 17:44:10.560 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] maincid - Tomcat started on port(s): 8092 (http)
+2018-05-10 17:44:10.565 [main] INFO  [org.springframework.context.support.DefaultLifecycleProcessor:343] maincid - Starting beans in phase 0
+2018-05-10 17:44:10.575 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2018-05-10 17:44:10.603 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2018-05-10 17:44:10.607 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2018-05-10 17:44:10.610 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2018-05-10 17:44:10.613 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2018-05-10 17:44:10.616 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2018-05-10 17:44:10.619 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2018-05-10 17:44:10.622 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2018-05-10 17:44:10.629 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2018-05-10 17:44:10.632 [main] INFO  [org.springframework.boot.actuate.endpoint.jmx.EndpointMBeanExporter:678] maincid - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2018-05-10 17:44:10.644 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Initializing ProtocolHandler ["http-nio-8091"]
+2018-05-10 17:44:10.644 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:179] maincid - Starting ProtocolHandler ["http-nio-8091"]
+2018-05-10 17:44:10.645 [main] INFO  [org.apache.tomcat.util.net.NioSelectorPool:179] maincid - Using a shared selector for servlet write/read
+2018-05-10 17:44:10.650 [main] INFO  [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:198] maincid - Tomcat started on port(s): 8091 (http)
+2018-05-10 17:44:10.657 [main] INFO  [com.mooc.house.HouseApplication:57] maincid - Started HouseApplication in 6.928 seconds (JVM running for 9.417)
+2018-05-10 17:44:11.917 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:44:21.667 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:44:31.660 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:44:41.662 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:44:51.666 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:45:01.666 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:45:11.664 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:45:21.665 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:45:31.664 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:45:41.671 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2018-05-10 17:45:51.668 [registrationTask1] WARN  [de.codecentric.boot.admin.client.registration.ApplicationRegistrator:88] registrationTask1cid - Failed to register application as Application [name=spring-boot-application, managementUrl=http://C64-20180322MQM:8092, healthUrl=http://C64-20180322MQM:8092/health, serviceUrl=http://C64-20180322MQM:8091] at spring-boot-admin ([http://localhost:8070/api/applications]): I/O error on POST request for "http://localhost:8070/api/applications": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
